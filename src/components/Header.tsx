@@ -3,7 +3,6 @@ import Logo from "../assets/pfp.png";
 import { Languages } from "lucide-react";
 
 const Header = () => {
-  
   return (
     <>
       <header className="flex items-center space-x-3 mb-10 w-full">
@@ -16,9 +15,7 @@ const Header = () => {
           <h1 className="text-primary font-medium">{HEADER.name}</h1>
           <h2 className="text-secondary text-sm">{HEADER.role}</h2>
         </div>
-        <button
-          className="ml-auto text-blue cursor-pointer"
-        >
+        <button className="ml-auto text-blue cursor-pointer">
           <Languages />
         </button>
       </header>

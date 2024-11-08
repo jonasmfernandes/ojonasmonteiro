@@ -35,7 +35,7 @@ const Experience = () => {
                       initial={{ opacity: 0, x: 45 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
-                      transition={{delay: index * 0.105}}
+                      transition={{ delay: index * 0.105 }}
                       key={index}
                       className="shadow md:mt-1 bg-[#161B27] text-blue py-1 px-2 border border-[#1E222C] text-xs rounded hover:bg-[#1f242c] duration-150 cursor-pointer"
                     >
