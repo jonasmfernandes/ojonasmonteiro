@@ -1,6 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
 import { PROJECTS } from "../constants";
-
 const ProjectCard = () => {
   return (
     <>
