@@ -4,7 +4,7 @@ import Main from "./components/Main"
 const App = () => {
   return (
     <>
-    <div className="max-w-lg">
+    <div className="max-w-screen-lg mx-auto">
     <Header/>
     <Main />
     </div>

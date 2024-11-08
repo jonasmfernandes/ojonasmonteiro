@@ -4,7 +4,7 @@ import Logo from "../assets/pfp.png";
 const Header = () => {
   return (
     <>
-      <header className="p-5 flex items-center space-x-3">
+      <header className="py-8 flex items-center space-x-3">
         <img 
         className="rounded-full size-16"
         src={Logo} 
