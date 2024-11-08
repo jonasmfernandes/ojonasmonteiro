@@ -4,9 +4,9 @@ import Logo from "../assets/pfp.png";
 const Header = () => {
   return (
     <>
-      <header className="py-8 flex items-center space-x-3">
+      <header className="flex items-center space-x-3 mb-10">
         <img 
-        className="rounded-full size-16"
+        className="rounded-full w-[70px] h-[70px]"
         src={Logo} 
         alt="Jonas Monteiro Fernandes"
          />

@@ -1,7 +1,7 @@
 const Main = () => {
   return (
     <>
-      <section className=" flex flex-col gap-6">
+      <section className=" flex flex-col gap-7">
         <p className="text-tertiary leading-7 text-sm md:text-base md:text-justify">
           I'm a software engineer with over 2 years of experience specializing
           in accessible, pixel-perfect interfaces. I combine design and
