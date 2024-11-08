@@ -6,7 +6,7 @@ const Experience = () => {
       <section className="space-y-2">
         {EXPERIENCE.map((experience) => (
           <div key={experience.id} className="space-y-2">
-            <p className="text-sm text-[#557CE1]">{experience.date}</p>
+            <p className="text-sm text-blue">{experience.date}</p>
             <h3 className="text-primary text-md leading-5">
               {experience.company}
             </h3>
@@ -20,13 +20,13 @@ const Experience = () => {
                   experience.stack.map((tech, index) => (
                     <li
                       key={index}
-                      className="shadow md:mt-1 bg-[#161B27] text-[#557CE1] py-1 px-2 border border-[#1E222C] text-xs rounded hover:bg-[#1f242c] duration-150 cursor-pointer"
+                      className="shadow md:mt-1 bg-[#161B27] text-blue py-1 px-2 border border-[#1E222C] text-xs rounded hover:bg-[#1f242c] duration-150 cursor-pointer"
                     >
                       {tech}
                     </li>
                   ))
                 ) : (
-                  <li className="shadow md:mt-1 bg-[#161B27] text-[#557CE1] py-1 px-2 border border-[#1E222C] text-xs rounded hover:bg-[#1f242c] duration-150 cursor-pointer">
+                  <li className="shadow md:mt-1 bg-[#161B27] text-blue py-1 px-2 border border-[#1E222C] text-xs rounded hover:bg-[#1f242c] duration-150 cursor-pointer">
                     {experience.stack}
                   </li>
                 )}
