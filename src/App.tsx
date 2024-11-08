@@ -1,3 +1,4 @@
+import Contact from "./components/Contact"
 import DivisionBar from "./components/DivisionBar"
 import Experience from "./components/Experience"
 import Header from "./components/Header"
@@ -14,6 +15,8 @@ const App = () => {
     <Experience />
     <DivisionBar />
     <Projects />
+    <DivisionBar />
+    <Contact />
     </div>
     </>
   )
