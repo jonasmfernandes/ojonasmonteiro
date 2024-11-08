@@ -8,7 +8,7 @@ const ProjectCard = () => {
         {PROJECTS.map((project) => (
           <div
             key={project.id}
-            className="flex flex-col gap-2 p-7 bg-[#15181E] rounded-lg border border-zinc-800"
+            className="flex flex-col gap-2 p-7 bg-[#15181E] rounded-lg border border-zinc-800 hover:bg-[#1f242c] duration-150 cursor-pointer"
           >
             <div className="flex justify-between">
               <h1 className="text-primary text-sm">{project.name}</h1>

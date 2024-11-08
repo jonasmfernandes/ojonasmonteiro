@@ -20,13 +20,13 @@ const Experience = () => {
                   experience.stack.map((tech, index) => (
                     <li
                       key={index}
-                      className="shadow md:mt-1 bg-[#161B27] text-[#557CE1] py-1 px-2 border border-[#1E222C] text-xs rounded"
+                      className="shadow md:mt-1 bg-[#161B27] text-[#557CE1] py-1 px-2 border border-[#1E222C] text-xs rounded hover:bg-[#1f242c] duration-150 cursor-pointer"
                     >
                       {tech}
                     </li>
                   ))
                 ) : (
-                  <li className="shadow md:mt-1 bg-[#161B27] text-[#557CE1] py-1 px-2 border border-[#1E222C] text-xs rounded">
+                  <li className="shadow md:mt-1 bg-[#161B27] text-[#557CE1] py-1 px-2 border border-[#1E222C] text-xs rounded hover:bg-[#1f242c] duration-150 cursor-pointer">
                     {experience.stack}
                   </li>
                 )}
