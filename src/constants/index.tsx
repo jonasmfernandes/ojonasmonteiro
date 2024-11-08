@@ -49,3 +49,18 @@ export const EXPERIENCE = [
         description: "I worked in the maintenance of computers, printers and peripherals, providing technical support to teachers, students and employees. Participated in meetings with management to discuss performance improvements. I acquired knowledge in audiovisual systems, such as sound and light tables, projectors and spotlights. Performed maintenance and repair of cables, including crimping and passing wires, ensuring the necessary technical infrastructure."
     }
 ]
+
+export const PROJECTS = [
+    {  
+        id: 1,
+        name: "Coming Soon",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, ducimus?",
+        stacks: "React - TypeScript - Tailwind - Framer Motion" 
+    },
+    {  
+        id: 2,
+        name: "Coming Soon",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore?",
+        stacks: "React - TypeScript - Tailwind - Framer Motion" 
+    },
+]
