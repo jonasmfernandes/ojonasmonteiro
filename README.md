@@ -14,4 +14,4 @@ Website desenvolvido em **React**, **TypeScript**, **TailwindCSS** e **Framer Mo
 - https://ojonasmonteiro.vercel.app
 
 ## Autor 
-Desenvolvido por: Jonas Monteiro Fernandes
+Desenvolvido por: Jonas Monteiro Fernandes.
