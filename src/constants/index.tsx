@@ -13,7 +13,7 @@ export const HEADER_PT = {
   name: "Jonas Monteiro",
   role: "Desenvolvedor Front-end",
   descriptionOne:
-    "Sou desenvolvedor front-end com 2 anos de experiência, gosto de combinar meu conhecimento técnico com design para criar aplicações bonitas e eficientes. Meu objetivo é desenvolver softwares escaláveis que ofereçam experiências de usuário envolventes e impecáveis.",
+    "Sou desenvolvedor Front-end com 2 anos de experiência, gosto de combinar meu conhecimento técnico com design para criar aplicações bonitas e eficientes. Meu objetivo é desenvolver softwares escaláveis que ofereçam experiências de usuário envolventes e impecáveis.",
   descriptionTwo:
     "Quando não estou programando, você vai me encontrar na academia levantando pesos, lendo um bom livro ou jogando videogame. Acredito que unir minha paixão por arte e tecnologia me permite criar experiências web visualmente atraentes e altamente envolventes.",
   btnCV: "Baixar CV",
