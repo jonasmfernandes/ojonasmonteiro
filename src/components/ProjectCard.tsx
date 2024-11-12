@@ -1,10 +1,11 @@
 import { ArrowUpRight } from "lucide-react";
-import { PROJECTS } from "../constants";
+import { useLanguage } from "./LanguageContext";
 const ProjectCard = () => {
+  const { texts } = useLanguage();
   return (
     <>
       <article className="flex flex-col gap-3">
-        {PROJECTS.map((project) => (
+        {texts.PROJECTS.map((project) => (
           <div
             key={project.id}
             className="flex flex-col gap-2 p-7 bg-[#15181E] rounded-lg border border-zinc-800 hover:bg-[#1f242c] duration-150 cursor-pointer"

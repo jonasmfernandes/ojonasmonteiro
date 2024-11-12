@@ -1,11 +1,12 @@
-import { EXPERIENCE } from "../constants";
 import { motion } from "framer-motion";
+import { useLanguage } from "./LanguageContext";
 
 const Experience = () => {
+  const {texts} = useLanguage();
   return (
     <>
       <div className="space-y-2">
-        {EXPERIENCE.map((experience) => (
+        {texts.EXPERIENCE.map((experience) => (
           <motion.div
             key={experience.id}
             initial={{ opacity: 0, y: 45 }}
