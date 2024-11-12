@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <button 
         onClick={toggleLanguage}
-        className="ml-auto text-blue cursor-pointer">
+        className="ml-auto text-blue cursor-pointer hover:text-[#87bca8]">
           {/* {language === "en" ? "Switch to Portuguese" : "Mudar para Inglês"} */}
           <Languages />
         </button>
