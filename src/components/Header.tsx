@@ -4,7 +4,7 @@ import { useLanguage } from "./LanguageContext";
 
 const Header = () => {
 
-  const {toggleLanguage, language, texts} = useLanguage()
+  const {toggleLanguage, texts} = useLanguage()
   return (
     <>
       <header className="flex items-center space-x-3 mb-10 w-full">
