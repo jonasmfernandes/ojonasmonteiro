@@ -206,17 +206,10 @@ export const EXPERIENCE_PT = [
 export const PROJECTS = [
   {
     id: 1,
-    name: "Coming Soon",
+    name: "SnapQR - QRCode Generator",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, ducimus?",
-    stacks: "React - TypeScript - Tailwind - Framer Motion",
-  },
-  {
-    id: 2,
-    name: "Coming Soon",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore?",
-    stacks: "React - TypeScript - Tailwind - Framer Motion",
+      "Generate QR codes from valid URLs and download them in PNG format quickly and easily.",
+    stacks: "React - TypeScript - Tailwind - Framer Motion - Node.js",
   },
 ];
 
@@ -225,14 +218,7 @@ export const PROJECTS_PT = [
     id: 1,
     name: "Em breve",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, ducimus?",
-    stacks: "React - TypeScript - Tailwind - Framer Motion",
-  },
-  {
-    id: 2,
-    name: "Em breve",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore?",
+      "Gere QR Codes a partir de URLs válidas e baixe em formato PNG de forma rápida e simples.",
     stacks: "React - TypeScript - Tailwind - Framer Motion",
   },
 ];
