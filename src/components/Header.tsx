@@ -18,6 +18,7 @@ const Header = () => {
           <h2 className="text-secondary text-sm">{texts.HEADER.role}</h2>
         </div>
         <button 
+        title="Change language/Mudar Idioma"
         onClick={toggleLanguage}
         className="ml-auto text-blue cursor-pointer hover:text-[#87bca8]">
           <Languages />
