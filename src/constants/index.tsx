@@ -2,9 +2,9 @@ export const HEADER = {
   name: "Jonas Monteiro",
   role: "Front-end Developer",
   descriptionOne:
-    "I'm a front-end developer with 2 years of experience, I like combining my technical knowledge with design to make beautiful and efficient applications. My goal is to build scalable and efficient software while providing engaging and flawless user experiences.",
+    "Front-end developer with 2 years of experience, I like combining my technical knowledge with design to make beautiful and efficient applications. My goal is to build scalable and efficient software while providing engaging and flawless user experiences.",
   descriptionTwo:
-    "When I'm not coding, you’ll find me at the gym lifting weights, reading a good book, or playing video games. I believe that combining my passion for art and technology helps me create more engaging and visually appealing web experiences.",
+    "When I'm not coding, you’ll find me at the gym lifting weights, reading a good book or taking a walk with my girlfriend. I believe that combining my passion for art and technology helps me create more engaging and visually appealing web experiences.",
   btnCV: "Download CV",
   textProjects: "SIDE PROJECTS",
 };
@@ -13,9 +13,9 @@ export const HEADER_PT = {
   name: "Jonas Monteiro",
   role: "Desenvolvedor Front-end",
   descriptionOne:
-    "Sou desenvolvedor Front-end com 2 anos de experiência, gosto de combinar meu conhecimento técnico com design para criar aplicações bonitas e eficientes. Meu objetivo é desenvolver softwares escaláveis que ofereçam experiências de usuário envolventes e impecáveis.",
+    "Desenvolvedor Front-end com 2 anos de experiência, gosto de combinar meu conhecimento técnico com design para criar aplicações bonitas e eficientes. Meu objetivo é desenvolver softwares escaláveis que ofereçam experiências de usuário envolventes e impecáveis.",
   descriptionTwo:
-    "Quando não estou programando, você vai me encontrar na academia levantando pesos, lendo um bom livro ou jogando videogame. Acredito que unir minha paixão por arte e tecnologia me permite criar experiências web visualmente atraentes e altamente envolventes.",
+    "Quando não estou programando, você vai me encontrar na academia levantando pesos, lendo um bom livro ou passeando com a minha namorada. Acredito que unir minha paixão por arte e tecnologia me permite criar experiências web visualmente atraentes e altamente envolventes.",
   btnCV: "Baixar CV",
   textProjects: "PROJETOS PARALELOS",
 };
