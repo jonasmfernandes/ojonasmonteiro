@@ -209,17 +209,17 @@ export const PROJECTS = [
     name: "SnapQR - QRCode Generator",
     description:
       "Generate QR codes from valid URLs and download them in PNG format quickly and easily.",
-    stacks: "React - TypeScript - Tailwind - Framer Motion - Node.js",
+    stacks: "React - TypeScript - Tailwind - Framer Motion - Node.js - MongoDB",
   },
 ];
 
 export const PROJECTS_PT = [
   {
     id: 1,
-    name: "Em breve",
+    name: "SnapQR - Gerador de QRCode",
     description:
       "Gere QR Codes a partir de URLs válidas e baixe em formato PNG de forma rápida e simples.",
-    stacks: "React - TypeScript - Tailwind - Framer Motion",
+    stacks: "React - TypeScript - Tailwind - Framer Motion - Node.js - MongoDB",
   },
 ];
 
@@ -227,12 +227,16 @@ export const STACKS = {
   name: "STACKS & TOOLS",
   stack: [
     "HTML",
-    "CSS",
+    "CSS/SASS",
     "Framer Motion",
+    "ShadcnUI",
     "JavaScript",
-    "React",
+    "React.js",
+    "Next.js",
     "TypeScript",
     "Angular",
+    "Node.js",
+    "MongoDB",
     "SQL",
     "Git",
     "Figma",
@@ -242,12 +246,16 @@ export const STACKS_PT = {
   name: "STACKS E FERRAMENTAS",
   stack: [
     "HTML",
-    "CSS",
+    "CSS/SASS",
     "Framer Motion",
+    "ShadcnUI",
     "JavaScript",
-    "React",
+    "React.js",
+    "Next.js",
     "TypeScript",
     "Angular",
+    "Node.js",
+    "MongoDB",
     "SQL",
     "Git",
     "Figma",
