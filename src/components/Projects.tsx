@@ -1,6 +1,8 @@
+import { useLanguage } from "./LanguageContext";
 import ProjectCard from "./ProjectCard";
 import { motion } from "framer-motion";
 const Projects = () => {
+  const { texts } = useLanguage()
   return (
     <>
       <motion.div
@@ -14,7 +16,7 @@ const Projects = () => {
           delay: 0.5,
         }}
       >
-        <h2 className="text-primary text-sm leading-5 pb-5">SIDE PROJECTS</h2>
+        <h2 className="text-primary text-sm leading-5 pb-5">{texts.HEADER.textProjects}</h2>
         <ProjectCard />
       </motion.div>
     </>

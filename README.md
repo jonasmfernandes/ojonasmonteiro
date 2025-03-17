@@ -1,6 +1,6 @@
 # Portfolio/Website
 
-Website desenvolvido em **React**, **TypeScript**, **TailwindCSS** e **Framer Motion**.
+Website desenvolvido em **React**, **TypeScript**, **TailwindCSS** e **Framer Motion**
 
 ## Tecnologias Utilizadas
 - **HTML5**
